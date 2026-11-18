@@ -1,0 +1,57 @@
+{
+  "receiptNo": "PA-FIXTURE-007",
+  "receiptDate": "2026-10-17T04:00:00.000Z",
+  "userName": "FIXTURE",
+  "pondokId": "P1",
+  "city": "Bintulu",
+  "carNo": "TESTCAR",
+  "overdue": true,
+  "amountReceived": 50,
+  "totalAmount": 19.54,
+  "rounding": -0.02,
+  "status": "pending",
+  "postedAt": null,
+  "rulesSnapshot": "{\"calendarDays\":4,\"overdueFee\":\"7.02\",\"taxEnabled\":true,\"windowIncludesCollectionDate\":true,\"rounding\":\"nearest_0.05_on_notice_net_and_tax\"}",
+  "items": [
+    {
+      "id": "PA-FIXTURE-007|0",
+      "noticeNo": "ANHIST01",
+      "noticeDate": "2026-10-01T00:00:00.000Z",
+      "city": "Bintulu",
+      "carNo": "TESTCAR",
+      "couponNo": "HISTGROUP1",
+      "baseAmount": 0.8,
+      "excessCharge": 1,
+      "taxRate": 5,
+      "taxAmount": 0.04,
+      "overdueFee": 7.02
+    },
+    {
+      "id": "PA-FIXTURE-007|1",
+      "noticeNo": "ANHIST02",
+      "noticeDate": "2026-10-01T00:00:00.000Z",
+      "city": "Bintulu",
+      "carNo": "TESTCAR",
+      "couponNo": "HISTGROUP1",
+      "baseAmount": 0.8,
+      "excessCharge": 1,
+      "taxRate": 5,
+      "taxAmount": 0.04,
+      "overdueFee": 0
+    },
+    {
+      "id": "PA-FIXTURE-007|2",
+      "noticeNo": "ANHIST03",
+      "noticeDate": "2026-10-01T00:00:00.000Z",
+      "city": "Bintulu",
+      "carNo": "TESTCAR",
+      "couponNo": "HISTGROUP2",
+      "baseAmount": 0.8,
+      "excessCharge": 1,
+      "taxRate": 5,
+      "taxAmount": 0.04,
+      "overdueFee": 7.02
+    }
+  ],
+  "postingPayload": "{\"receiptNo\":\"PA-FIXTURE-007\",\"receiptDate\":\"2026-10-17T04:00:00.000Z\",\"userName\":\"FIXTURE\",\"pondokId\":\"P1\",\"city\":\"Bintulu\",\"carNo\":\"TESTCAR\",\"overdue\":true,\"totalAmount\":\"19.54\",\"roundingAmount\":\"-0.02\",\"items\":[{\"opNo\":\"ANHIST01\",\"opDate\":\"2026-10-01\",\"couponNo\":\"HISTGROUP1\",\"baseAmount\":\"0.80\",\"excessCharges\":\"1.00\",\"taxAmount\":\"0.04\",\"taxPercent\":\"5.00\",\"compoundAmount\":\"7.02\"},{\"opNo\":\"ANHIST02\",\"opDate\":\"2026-10-01\",\"couponNo\":\"HISTGROUP1\",\"baseAmount\":\"0.80\",\"excessCharges\":\"1.00\",\"taxAmount\":\"0.04\",\"taxPercent\":\"5.00\",\"compoundAmount\":\"0.00\"},{\"opNo\":\"ANHIST03\",\"opDate\":\"2026-10-01\",\"couponNo\":\"HISTGROUP2\",\"baseAmount\":\"0.80\",\"excessCharges\":\"1.00\",\"taxAmount\":\"0.04\",\"taxPercent\":\"5.00\",\"compoundAmount\":\"7.02\"}]}"
+}

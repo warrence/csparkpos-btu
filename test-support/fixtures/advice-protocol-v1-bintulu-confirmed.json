@@ -1,0 +1,71 @@
+{
+  "protocolVersion": 1,
+  "adviceReceipts": [
+    {
+      "receiptNo": "OP-P1-41",
+      "receiptDate": "2026-10-17T04:00:00.000Z",
+      "userName": "FIXTURE",
+      "pondokId": "P1",
+      "city": "Bintulu",
+      "carNo": "TESTCAR",
+      "overdue": false,
+      "totalAmount": "10.65",
+      "roundingAmount": "0.02",
+      "items": [
+        {
+          "opNo": "ANPOL1",
+          "opDate": "2026-10-04",
+          "couponNo": "",
+          "baseAmount": "10.00",
+          "excessCharges": "0.03",
+          "taxAmount": "0.60",
+          "taxPercent": "6.00",
+          "compoundAmount": "0.00"
+        }
+      ]
+    },
+    {
+      "receiptNo": "PA-P1-71",
+      "receiptDate": "2026-10-17T04:00:00.000Z",
+      "userName": "FIXTURE",
+      "pondokId": "P1",
+      "city": "Bintulu",
+      "carNo": "TESTCAR",
+      "overdue": true,
+      "totalAmount": "71.90",
+      "roundingAmount": "0.01",
+      "items": [
+        {
+          "opNo": "ANPOL2",
+          "opDate": "2026-10-03",
+          "couponNo": "COUPON-A",
+          "baseAmount": "10.00",
+          "excessCharges": "0.03",
+          "taxAmount": "0.60",
+          "taxPercent": "6.00",
+          "compoundAmount": "20.00"
+        },
+        {
+          "opNo": "ANPOL3",
+          "opDate": "2026-10-03",
+          "couponNo": "COUPON-A",
+          "baseAmount": "10.00",
+          "excessCharges": "0.03",
+          "taxAmount": "0.60",
+          "taxPercent": "6.00",
+          "compoundAmount": "0.00"
+        },
+        {
+          "opNo": "ANPOL4",
+          "opDate": "2026-10-03",
+          "couponNo": "COUPON-B",
+          "baseAmount": "10.00",
+          "excessCharges": "0.03",
+          "taxAmount": "0.60",
+          "taxPercent": "6.00",
+          "compoundAmount": "20.00"
+        }
+      ]
+    }
+  ]
+}

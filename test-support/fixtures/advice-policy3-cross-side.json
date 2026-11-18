@@ -1,0 +1,2866 @@
+{
+  "syntheticOnly": true,
+  "cases": [
+    {
+      "name": "bintulu-current-1",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "OP-P1-41",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": false,
+            "totalAmount": "1.85",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300001",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-current-3",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "OP-P1-42",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": false,
+            "totalAmount": "5.55",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300002",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300003",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300004",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-current-13",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "OP-P1-43",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": false,
+            "totalAmount": "24.05",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300005",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300006",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300007",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300008",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300009",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300010",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300011",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300012",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300013",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300014",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300015",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300016",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300017",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-current-100",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "OP-P1-44",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": false,
+            "totalAmount": "185.00",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300018",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300019",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300020",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300021",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300022",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300023",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300024",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300025",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300026",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300027",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300028",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300029",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300030",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300031",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300032",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300033",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300034",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300035",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300036",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300037",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300038",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300039",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300040",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300041",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300042",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300043",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300044",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300045",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300046",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300047",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300048",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300049",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300050",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300051",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300052",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300053",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300054",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300055",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300056",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300057",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300058",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300059",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300060",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300061",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300062",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300063",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300064",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300065",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300066",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300067",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300068",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300069",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300070",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300071",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300072",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300073",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300074",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300075",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300076",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300077",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300078",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300079",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300080",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300081",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300082",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300083",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300084",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300085",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300086",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300087",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300088",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300089",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300090",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300091",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300092",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300093",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300094",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300095",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300096",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300097",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300098",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300099",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300100",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300101",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300102",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300103",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300104",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300105",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300106",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300107",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300108",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300109",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300110",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300111",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300112",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300113",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300114",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300115",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300116",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300117",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-overdue-1",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "PA-P1-71",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": true,
+            "totalAmount": "21.85",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300118",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "20.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-overdue-3",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "PA-P1-72",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": true,
+            "totalAmount": "25.55",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300119",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "20.00"
+              },
+              {
+                "opNo": "ANP300120",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300121",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-overdue-13",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "PA-P1-73",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": true,
+            "totalAmount": "44.05",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300122",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "20.00"
+              },
+              {
+                "opNo": "ANP300123",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300124",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300125",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300126",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300127",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300128",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300129",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300130",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300131",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300132",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300133",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300134",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bintulu-overdue-100",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 20,
+          "taxEnabled": true,
+          "taxPercent": 6,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 0.8,
+          "excessCharges": 1
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "PA-P1-74",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": true,
+            "totalAmount": "205.00",
+            "roundingAmount": "0.00",
+            "items": [
+              {
+                "opNo": "ANP300135",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "20.00"
+              },
+              {
+                "opNo": "ANP300136",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300137",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300138",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300139",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300140",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300141",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300142",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300143",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300144",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300145",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300146",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300147",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300148",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300149",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300150",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300151",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300152",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300153",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300154",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300155",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300156",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300157",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300158",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300159",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300160",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300161",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300162",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300163",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300164",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300165",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300166",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300167",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300168",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300169",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300170",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300171",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300172",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300173",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300174",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300175",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300176",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300177",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300178",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300179",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300180",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300181",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300182",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300183",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300184",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300185",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300186",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300187",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300188",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300189",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300190",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300191",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300192",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300193",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300194",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300195",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300196",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300197",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300198",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300199",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300200",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300201",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300202",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300203",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300204",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300205",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300206",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300207",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300208",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300209",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300210",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300211",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300212",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300213",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300214",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300215",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300216",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300217",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300218",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300219",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300220",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300221",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300222",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300223",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300224",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300225",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300226",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300227",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300228",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300229",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300230",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300231",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300232",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300233",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300234",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "0.80",
+                "excessCharges": "1.00",
+                "taxAmount": "0.05",
+                "taxPercent": "6.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nondefault-current-3",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 7.02,
+          "taxEnabled": true,
+          "taxPercent": 5,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 1.25,
+          "excessCharges": 2.35
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "OP-P1-45",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": false,
+            "totalAmount": "11.00",
+            "roundingAmount": "0.02",
+            "items": [
+              {
+                "opNo": "ANP300235",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300236",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300237",
+                "opDate": "2026-10-19",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nondefault-overdue-3",
+      "rules": {
+        "protocolVersion": 1,
+        "configured": true,
+        "rules": {
+          "calendarDays": 14,
+          "overdueFee": 7.02,
+          "taxEnabled": true,
+          "taxPercent": 5,
+          "windowIncludesCollectionDate": true,
+          "rounding": "nearest_0.05_on_notice_net_and_tax",
+          "collectionPolicyVersion": 3,
+          "feeBasis": "receipt",
+          "baseAmount": 1.25,
+          "excessCharges": 2.35
+        }
+      },
+      "envelope": {
+        "protocolVersion": 1,
+        "adviceReceipts": [
+          {
+            "collectionPolicyVersion": 3,
+            "feeBasis": "receipt",
+            "receiptNo": "PA-P1-75",
+            "receiptDate": "2026-10-19T04:00:00.000Z",
+            "userName": "FIXTURE",
+            "pondokId": "P1",
+            "city": "Bintulu",
+            "carNo": "TESTCAR",
+            "overdue": true,
+            "totalAmount": "18.02",
+            "roundingAmount": "0.02",
+            "items": [
+              {
+                "opNo": "ANP300238",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "7.02"
+              },
+              {
+                "opNo": "ANP300239",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "0.00"
+              },
+              {
+                "opNo": "ANP300240",
+                "opDate": "2026-10-01",
+                "couponNo": "",
+                "baseAmount": "1.25",
+                "excessCharges": "2.35",
+                "taxAmount": "0.06",
+                "taxPercent": "5.00",
+                "compoundAmount": "0.00"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "immutableLegacyEnvelope": {
+    "protocolVersion": 1,
+    "adviceReceipts": [
+      {
+        "receiptNo": "OP-P1-41",
+        "receiptDate": "2026-10-17T04:00:00.000Z",
+        "userName": "FIXTURE",
+        "pondokId": "P1",
+        "city": "Bintulu",
+        "carNo": "TESTCAR",
+        "overdue": false,
+        "totalAmount": "10.65",
+        "roundingAmount": "0.02",
+        "items": [
+          {
+            "opNo": "ANPOL1",
+            "opDate": "2026-10-04",
+            "couponNo": "",
+            "baseAmount": "10.00",
+            "excessCharges": "0.03",
+            "taxAmount": "0.60",
+            "taxPercent": "6.00",
+            "compoundAmount": "0.00"
+          }
+        ]
+      },
+      {
+        "receiptNo": "PA-P1-71",
+        "receiptDate": "2026-10-17T04:00:00.000Z",
+        "userName": "FIXTURE",
+        "pondokId": "P1",
+        "city": "Bintulu",
+        "carNo": "TESTCAR",
+        "overdue": true,
+        "totalAmount": "71.90",
+        "roundingAmount": "0.01",
+        "items": [
+          {
+            "opNo": "ANPOL2",
+            "opDate": "2026-10-03",
+            "couponNo": "COUPON-A",
+            "baseAmount": "10.00",
+            "excessCharges": "0.03",
+            "taxAmount": "0.60",
+            "taxPercent": "6.00",
+            "compoundAmount": "20.00"
+          },
+          {
+            "opNo": "ANPOL3",
+            "opDate": "2026-10-03",
+            "couponNo": "COUPON-A",
+            "baseAmount": "10.00",
+            "excessCharges": "0.03",
+            "taxAmount": "0.60",
+            "taxPercent": "6.00",
+            "compoundAmount": "0.00"
+          },
+          {
+            "opNo": "ANPOL4",
+            "opDate": "2026-10-03",
+            "couponNo": "COUPON-B",
+            "baseAmount": "10.00",
+            "excessCharges": "0.03",
+            "taxAmount": "0.60",
+            "taxPercent": "6.00",
+            "compoundAmount": "20.00"
+          }
+        ]
+      }
+    ]
+  }
+}

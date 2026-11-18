@@ -1,0 +1,24 @@
+import {Alert} from 'react-native';
+import LoadGeneralProfile from '../src/components/load-data/LoadGeneralProfile';
+import LoadCity from '../src/components/load-data/LoadCity';
+import LoadAdviceRules from '../src/components/load-data/LoadAdviceRules';
+jest.mock('../src/components/load-data/LoadGeneralProfile',()=>jest.fn());
+jest.mock('../src/components/load-data/LoadCity',()=>jest.fn());
+jest.mock('../src/components/load-data/LoadHoliday',()=>jest.fn(()=>Promise.resolve(true)));
+jest.mock('../src/components/load-data/LoadPass',()=>jest.fn(()=>Promise.resolve(true)));
+jest.mock('../src/components/load-data/LoadOpTable',()=>jest.fn(()=>Promise.resolve(true)));
+jest.mock('../src/components/load-data/LoadOffence',()=>jest.fn(()=>Promise.resolve(true)));
+jest.mock('../src/components/load-data/LoadCoupon',()=>jest.fn(()=>Promise.resolve(true)));
+jest.mock('../src/components/load-data/LoadAdviceRules',()=>jest.fn());
+jest.mock('../src/realm',()=>({objects:()=>[]}));
+jest.mock('../src/printReceipt',()=>jest.fn());
+jest.mock('axios',()=>({get:jest.fn()}));
+jest.mock('bugsnag-react-native',()=>({Client:class{notify(){}}}));
+const Screen=require('../src/components/load-data/LoadData').default.wrappedComponent;
+function screen(){const s=new Screen({generalStore:{reloadFromStorage:jest.fn().mockResolvedValue(true)}});s.props={generalStore:{reloadFromStorage:jest.fn().mockResolvedValue(true)}};s.setState=u=>Object.assign(s.state,u);s.state={...s.state,pondok_to_load:'TEST',date_to_load:new Date()};return s;}
+beforeEach(()=>{jest.clearAllMocks();LoadGeneralProfile.mockResolvedValue(true);LoadCity.mockResolvedValue(true);LoadAdviceRules.mockResolvedValue(true);jest.spyOn(Alert,'alert').mockImplementation(()=>{});});
+afterEach(()=>jest.restoreAllMocks());
+test('all successful downloads show completion only after every loader',async()=>{const s=screen();await s.onLoadButtonPress();expect(Alert.alert).toHaveBeenLastCalledWith('Load Process Completed');expect(s.state.Advice).toEqual({loading:false,loaded:true,error:false});expect(s.state.isLoading).toBe(false);});
+test.each(['invalid-policy','network'])('failed Advice loader %s is named and does not show successful completion',async reason=>{const s=screen();if(reason==='network')LoadAdviceRules.mockRejectedValue(new Error('synthetic'));else LoadAdviceRules.mockResolvedValue(false);await s.onLoadButtonPress();expect(Alert.alert).toHaveBeenLastCalledWith('Load incomplete. Failed: Advice Notice Rules. Please try again.');expect(s.state.Advice).toEqual({loading:false,loaded:false,error:true});expect(s.state.isLoading).toBe(false);});
+test('multiple failures and local hydration error are reported together',async()=>{const s=screen();LoadCity.mockResolvedValue(false);LoadAdviceRules.mockResolvedValue(false);s.props.generalStore.reloadFromStorage.mockImplementation(()=>{throw new Error('synthetic');});await s.onLoadButtonPress();expect(Alert.alert).toHaveBeenLastCalledWith('Load incomplete. Failed: City Councils, Advice Notice Rules, Local settings refresh. Please try again.');});
+test('concurrent Load tap runs loaders once and retry clears previous error',async()=>{const s=screen();let finish;LoadGeneralProfile.mockImplementation(()=>new Promise(resolve=>{finish=resolve;}));const first=s.onLoadButtonPress();await Promise.resolve();await s.onLoadButtonPress();finish(true);await first;expect(LoadAdviceRules).toHaveBeenCalledTimes(1);LoadGeneralProfile.mockResolvedValue(true);await s.onLoadButtonPress();expect(s.state.Advice.error).toBe(false);});

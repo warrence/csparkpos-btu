@@ -1,0 +1,25 @@
+{
+    "protocol": "pondok-receipts-v1",
+    "requestId": "pos-mwad3xa0-pi124pfsc9-8rrs6c0y6yk",
+    "complete": true,
+    "accepted": [
+        {
+            "kind": "op",
+            "receiptNo": "SYNTHETIC-LEGACY",
+            "itemCount": 1,
+            "status": "already_received"
+        },
+        {
+            "kind": "op",
+            "receiptNo": "SYNTHETIC-SHARED",
+            "itemCount": 2,
+            "status": "already_received"
+        },
+        {
+            "kind": "op",
+            "receiptNo": "SYNTHETIC-MIXED",
+            "itemCount": 3,
+            "status": "already_received"
+        }
+    ]
+}

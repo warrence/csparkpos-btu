@@ -1,0 +1,16 @@
+node_modules/
+android/isolated-build/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/app/release/
+*.apk
+*.aab
+*.idsig
+*.jks
+*.keystore
+*.keystore.properties
+*.iml
+.DS_Store
+.env*

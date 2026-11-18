@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <application android:name="com.csparkpos.qa.QAApplication" tools:replace="android:name">
+    <meta-data android:name="com.bugsnag.android.API_KEY" tools:node="remove" />
+  </application>
+</manifest>

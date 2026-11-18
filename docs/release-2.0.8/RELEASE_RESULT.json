@@ -1,0 +1,62 @@
+{
+  "status": "CORRECTED_BUILD_VERIFIED_NOT_DISTRIBUTED",
+  "apk": "/Users/warrence/Documents/Codex/2026-11-10/csparkpos-release-2.0.8-pa-proof/Bintulu-CSparkPOS-2.0.8-release-20261110.apk",
+  "sha256": "c085efcdb8b8ea09e22f3f93c9379acb6481e06385d81e578e9f51f5d045802c",
+  "size": 27058420,
+  "package": "com.csparkpos",
+  "version": "2.0.8",
+  "code": 8,
+  "schema": 32,
+  "endpoint": "https://office.bdap.com.my",
+  "debuggable": false,
+  "certificateSHA256": "866a08607a9dc8f3ea638acee53a2cab3341d2a64498590cbacc4c0f5bf90f3e",
+  "signatures": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "tests": {
+    "jest": 687,
+    "suites": 51,
+    "seconds": 34.862,
+    "finalNative": 18,
+    "actualCompiledPAHold": "removed0 held1 writes0 unchanged",
+    "actualOld204FalseHTTP200MarkerRetained": true,
+    "priorHTTP8Cases35Assertions": "supporting unchanged posting behavior; predates final helper correction",
+    "backend19": "supporting unchanged Office tree5bc2d4"
+  },
+  "sourceFilesVerified": 155,
+  "manifestPathsVerified": 13,
+  "nativeLibrariesIdentical207": [
+    "lib/arm64-v8a/libjsc.so",
+    "lib/arm64-v8a/libjscexecutor.so",
+    "lib/arm64-v8a/librealmreact.so",
+    "lib/armeabi-v7a/libjsc.so",
+    "lib/armeabi-v7a/libjscexecutor.so",
+    "lib/armeabi-v7a/librealmreact.so",
+    "lib/x86/libjsc.so",
+    "lib/x86/libjscexecutor.so",
+    "lib/x86/librealmreact.so"
+  ],
+  "changedNonSignatureEntries": [
+    "AndroidManifest.xml",
+    "assets/index.android.bundle",
+    "classes.dex"
+  ],
+  "bundleSHA256": "b9fb68561da476a738ad71821fc4363c9944263b09ec51515be29a26bc465d98",
+  "compiledScope": "Six cleanup production modules +global version; old unused advice/localRemoval removed; all other bodies identical207",
+  "historicalPA": "Retained visible for Office review, no historical PA automatic sweep based on uploaded marker",
+  "installed": false,
+  "uploaded": false,
+  "published": false,
+  "officeChanged": false,
+  "heldArtifactPreserved": true,
+  "prior207ArtifactPreserved": true,
+  "credentialAudit": "Removed serverAuth absent; sanitized207 lineage, reviewed changed bodies and unchanged dependencies; no old secret reread",
+  "limits": [
+    "No physical UI/printer, Samsung or live posting tested",
+    "Final native fixture uses mocked HTTP; prior HTTP test-double evidence not exact final helper",
+    "Backend synthetic PHP8.4 versus live8.1.27",
+    "Schema32 unchanged; no downgrade to206 after schema32 use"
+  ]
+}

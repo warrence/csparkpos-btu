@@ -1,0 +1,63 @@
+import React, { Component } from 'react';
+import {
+  Container,
+  Content,
+  Text
+} from 'native-base';
+import { VirtualizedList } from 'react-native';
+import {
+  Cell,
+  DataTable,
+  Header,
+  HeaderCell,
+  Row,
+} from 'react-native-data-table';
+import { ListView } from 'realm/react-native';
+import realm from '../../realm';
+import { dataTableStyles } from '../../styles/dataTableStyles';
+import _ from 'lodash';
+
+
+export default class HolidaysMaintenance extends Component {
+
+  constructor(props) {
+    super(props);
+
+    const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
+    const cities = realm.objects('Holiday').sorted('holidayDate', true);
+    this.state = {
+      dataSource: ds.cloneWithRows(cities),
+      //dataSource: _.cloneDeep(cities)
+    };
+  }
+
+  componentWillMount() {
+
+  }
+
+
+  render() {
+
+    return (
+      <Container>
+        <Content style={{ backgroundColor: 'white' }}>
+          {/*<ListView
+            dataSource={this.state.dataSource}
+            renderRow={(item) => <Text>{item.holidayName}</Text>}
+          />*/}
+
+          <VirtualizedList
+            data={this.state.dataSource}
+            getItemCount={(data) => console.log(data)}
+            getItem={(data, index) => { return { key: index, item: data }; }}
+            renderItem={(item) => <Text>{item.holidayName}</Text>}
+            keyExtractor={(item) => item.holidatDate}
+            windowSize={11}
+            initialNumToRender={20}
+          />
+        </Content>
+      </Container>
+    );
+  }
+}
+

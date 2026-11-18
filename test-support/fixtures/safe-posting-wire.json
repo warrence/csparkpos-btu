@@ -1,0 +1,83 @@
+{
+  "postingProtocol": "pondok-receipts-v1",
+  "requestId": "pos-mwad3xa0-pi124pfsc9-8rrs6c0y6yk",
+  "opReceipts": [
+    {
+      "receiptNo": "SYNTHETIC-SHARED",
+      "userName": "FIXTURE",
+      "receiptDate": "2026-10-06T04:00:00.000Z",
+      "pondokId": "FIXTURE-P1",
+      "city": "BTU",
+      "carNo": "SHAREDCAR",
+      "items": [
+        {
+          "opNo": "SHARED-ONE",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6,
+          "carNo": "SHAREDCAR"
+        },
+        {
+          "opNo": "SHARED-TWO",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6,
+          "carNo": "SHAREDCAR"
+        }
+      ]
+    },
+    {
+      "receiptNo": "SYNTHETIC-MIXED",
+      "userName": "FIXTURE",
+      "receiptDate": "2026-10-06T04:00:00.000Z",
+      "pondokId": "FIXTURE-P1",
+      "city": "BTU",
+      "items": [
+        {
+          "opNo": "MIXED-ONE",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6,
+          "carNo": "FIRSTCAR"
+        },
+        {
+          "opNo": "MIXED-TWO",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6,
+          "carNo": "SECONDCAR"
+        },
+        {
+          "opNo": "MIXED-UNKNOWN",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6
+        }
+      ]
+    },
+    {
+      "receiptNo": "SYNTHETIC-LEGACY",
+      "userName": "FIXTURE",
+      "receiptDate": "2026-10-06T04:00:00.000Z",
+      "pondokId": "FIXTURE-P1",
+      "city": "BTU",
+      "items": [
+        {
+          "opNo": "LEGACY-UNKNOWN",
+          "opDate": "2026-10-05T04:00:00.000Z",
+          "amount": 0.8,
+          "taxAmount": 0.05,
+          "tax": 6
+        }
+      ]
+    }
+  ],
+  "paReceipts": [],
+  "couponReceipts": [],
+  "mBillReceipts": []
+}

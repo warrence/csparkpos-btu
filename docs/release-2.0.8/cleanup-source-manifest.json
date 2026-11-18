@@ -1,0 +1,15 @@
+{
+  "src/App.js": "33790897756c8947977b9f555e5f5760c1a8ad78099599f426ca371b905a9657",
+  "src/payments/safePosting.js": "d7acff2fee35bb8322763f80ed2ced6075d8f87fd62014853f470a1f5a266613",
+  "src/payments/receiptRemoval.js": "99bd620f2cc6edc685a1d2f671a49140f4bba0d3a267b918fc8a17f3f2c36a95",
+  "src/payments/paReceipts.js": "c35a5a567ab5dec43a749a7331b6f1619173d8115535de8a38e1f97b96851252",
+  "src/advice/payload.js": "b997a767a457f3de7607894824d7a9ca3e12e8531e6bcf54c78a439c9ce02372",
+  "src/components/maintenances/ReceiptMaintenance.js": "361618230f2126e42a1981e42a50d63c04451542abc9ed229120eee4645b8094",
+  "__tests__/opn-vehicle-posting.test.js": "f0d467faee70d902aca5e8bcf50c07fc7c28c5af26f57b7f79692f09c86bf054",
+  "__tests__/advice-posting-screen.test.js": "4db48c257d95179bb9e0411c44d31c337aab0fc47a9f12977f1926d823053157",
+  "__tests__/safe-posting.test.js": "4801a3aae389a9d30c9775667ecd578a94fcf1e3e538c1216832a5be10a720b3",
+  "__tests__/safe-posting-contract.test.js": "9b852cb8403e2ddd27e3a5f68961b4f1e566a3b9410d4f4ca247cd81bc211205",
+  "__tests__/receipt-removal.test.js": "933e0f84c664f626ebfd6a7283a4b43d59848d43911974aa544c8dc22d27e061",
+  "__tests__/advice-local-removal.test.js": "bbf5fa65eb222dc16822e7c00e7da4a5786b68c4cb39b263f7fd534353aa8b3a",
+  "test-support/memoryRealm.js": "f590a1c15c74f3e9a13051748a5c372ea729c33526f418d2ed607e410beaf365"
+}

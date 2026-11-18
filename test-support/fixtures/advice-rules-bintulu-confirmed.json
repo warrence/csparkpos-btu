@@ -1,0 +1,11 @@
+{
+  "protocolVersion": 1,
+  "configured": true,
+  "rules": {
+    "calendarDays": 14,
+    "overdueFee": 20,
+    "taxEnabled": true,
+    "windowIncludesCollectionDate": true,
+    "rounding": "nearest_0.05_on_notice_net_and_tax"
+  }
+}

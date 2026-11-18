@@ -1,0 +1,161 @@
+{
+  "compiledVersion": "2.0.8",
+  "compiledEndpoint": "https://office.bdap.com.my",
+  "globalModule": 829,
+  "displayConsumers": [
+    827,
+    830
+  ],
+  "oldModuleCount": 998,
+  "newModuleCount": 997,
+  "replacedCount": 8,
+  "newBodiesCount": 7,
+  "changedBodies": [
+    {
+      "id": 374,
+      "sha256": "7b4068a455f754471851e9e256831033c696d17069628cfda48cadfebabcb3b6",
+      "exports": [
+        ".default=",
+        ".stores=",
+        ".state=",
+        ".default="
+      ]
+    },
+    {
+      "id": 375,
+      "sha256": "89a0a826ce11383a817e6c66f024f1df195b295a37186c7a220b5d31014a131f",
+      "exports": [
+        ".archiveConfirmedUpload=",
+        ".assertNoRemovedNotice=",
+        ".kind=",
+        ".assertNoRemovedSale=",
+        ".kind=",
+        ".prefix=",
+        ".cleanupPreviouslyUploaded=",
+        ".clearAdviceUploadAttempt=",
+        ".markAdviceUploadAttempt=",
+        ".nextOtherReceiptCounter=",
+        ".planReceiptRemoval=",
+        ".planReceiptRestore=",
+        ".receiptRemovalRows=",
+        ".removeReviewedReceipts=",
+        ".restoreReviewedReceipt=",
+        ".receiptNo="
+      ]
+    },
+    {
+      "id": 829,
+      "sha256": "3ad936a505720a3253a23cf2c799a7bc49c5a580671750e7d33ca9a3a5d54e07",
+      "exports": [
+        ".version=",
+        ".SERVER_URL=",
+        ".RELOAD_URL=",
+        ".REALM_SCHEMA_VERSION=",
+        ".SERVER_URL=",
+        ".RELOAD_URL=",
+        ".version=",
+        ".REALM_SCHEMA_VERSION="
+      ]
+    },
+    {
+      "id": 914,
+      "sha256": "36466a99c4cbfaa83fa06fc5289cf12ce26f25326dbbc12bbb6f9071457b05c2",
+      "exports": [
+        ".default=",
+        ".default=",
+        ".state=",
+        "._receiptListener="
+      ]
+    },
+    {
+      "id": 917,
+      "sha256": "bc423715bc6fd2e5c4b530da368bf85df9bf5058269f7b24fb996a890a931b53",
+      "exports": [
+        ".assertNewPaNotices=",
+        ".latestPaReceipt=",
+        ".markPaUploadResult=",
+        ".status=",
+        ".uploadedAt=",
+        ".markPaUploading=",
+        ".uploadPayload=",
+        ".status=",
+        ".paKind=",
+        ".paItems=",
+        ".paReceiptPayload=",
+        ".paUploadState=",
+        ".paUploadLabel=",
+        ".savePaReceipt=",
+        ".paKind=",
+        ".paItems=",
+        ".receiptNo=",
+        ".printKind=",
+        ".noticeKind=",
+        ".receiptNo=",
+        ".id=",
+        ".paUploadState=",
+        ".paUploadLabel="
+      ]
+    },
+    {
+      "id": 978,
+      "sha256": "f60a3e64197e609d20746a053762567d612402d345902f520e3687f43b2ad7cc",
+      "exports": [
+        ".acknowledgedAdvice=",
+        ".advicePayload=",
+        ".postAdviceBatch=",
+        ".prev=",
+        ".next=",
+        ".receiptNo=",
+        ".next=",
+        ".prev=",
+        ".next=",
+        ".prev=",
+        ".prev=",
+        ".prev=",
+        ".next=",
+        ".receiptNo=",
+        ".postingPayload=",
+        ".status=",
+        ".postedAt=",
+        ".next=",
+        ".prev=",
+        ".next=",
+        ".next=",
+        ".next=",
+        ".receiptNo=",
+        ".reminderNo="
+      ]
+    },
+    {
+      "id": 988,
+      "sha256": "7ab8eac3f78d668c9d679064789d423ebfba9297123532685aff598fc8487205",
+      "exports": [
+        ".POSTING_PROTOCOL=",
+        ".completePostingAcknowledgment=",
+        ".legacyNoticeCounts=",
+        ".postLegacyBatch=",
+        ".prev=",
+        ".next=",
+        ".prev=",
+        ".next=",
+        ".protocol=",
+        ".next=",
+        ".next=",
+        ".next=",
+        ".status=",
+        ".uploadedAt=",
+        ".prev=",
+        ".next=",
+        ".POSTING_PROTOCOL=",
+        ".kind=",
+        ".receiptNo=",
+        ".itemCount=",
+        ".size=",
+        ".uploadPayload=",
+        ".status=",
+        ".kind=",
+        ".receiptNo="
+      ]
+    }
+  ]
+}

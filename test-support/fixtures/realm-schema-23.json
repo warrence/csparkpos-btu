@@ -1,0 +1,326 @@
+{
+  "schema": [
+    {
+      "name": "GeneralProfile",
+      "properties": {
+        "companyName": "string",
+        "shortName": "string?",
+        "Address1": "string?",
+        "Address2": "string?",
+        "Address3": "string?",
+        "Telephone1": "string?",
+        "Telephone2": "string?",
+        "Telephone3": "string?",
+        "Telephone4": "string?",
+        "Fax1": "string?",
+        "Fax2": "string?",
+        "Email1": "string?",
+        "Email2": "string?",
+        "Email3": "string?",
+        "Website": "string?",
+        "Currency": "string?",
+        "CompanyNo": "string",
+        "GstRegNo": "string?",
+        "PondokId": "string",
+        "PondokName": "string?",
+        "PondokCity": "string",
+        "PondokArea": "string",
+        "Tax": {
+          "type": "int",
+          "default": 0
+        },
+        "TaxCode": "string?",
+        "CouponReceiptPrefix": "string",
+        "OpReceiptPrefix": "string",
+        "PaReceiptPrefix": "string",
+        "MBillReceiptPrefix": "string",
+        "CouponReceiptNo": {
+          "type": "int",
+          "default": 0
+        },
+        "OpReceiptNo": {
+          "type": "int",
+          "default": 0
+        },
+        "PaReceiptNo": {
+          "type": "int",
+          "default": 0
+        },
+        "MBillReceiptNo": {
+          "type": "int",
+          "default": 0
+        },
+        "printerAddress": "string?"
+      }
+    },
+    {
+      "name": "City",
+      "properties": {
+        "code": "string",
+        "name": "string",
+        "opExpiryDay": {
+          "type": "int",
+          "default": 0
+        },
+        "compoundExpiryDay": {
+          "type": "int",
+          "default": 0
+        },
+        "expiryPaRate": {
+          "type": "double",
+          "default": 0
+        },
+        "address1": "string",
+        "address2": "string",
+        "address3": "string",
+        "telephone": "string",
+        "gstRegNo": "string",
+        "allowOverduePa": {
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    {
+      "name": "Holiday",
+      "properties": {
+        "holidayName": "string",
+        "holidayDate": {
+          "type": "date"
+        }
+      }
+    },
+    {
+      "name": "Pass",
+      "properties": {
+        "employeeId": "string",
+        "employeeName": "string",
+        "employeePassword": "string",
+        "employeeLevel": "int"
+      }
+    },
+    {
+      "name": "OpTable",
+      "properties": {
+        "amount": "double"
+      }
+    },
+    {
+      "name": "Offence",
+      "properties": {
+        "city": "string",
+        "code": "string",
+        "description": "string",
+        "amount": "double",
+        "dayPay": {
+          "type": "int",
+          "default": 0
+        },
+        "disPercent": "double",
+        "dayPay2": {
+          "type": "int",
+          "default": 0
+        },
+        "disPercent2": "double",
+        "workingDaysOnly": "bool",
+        "allowEdit": {
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    {
+      "name": "Coupon",
+      "properties": {
+        "couponNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "couponType": {
+          "type": "int"
+        },
+        "issueDate": "date"
+      }
+    },
+    {
+      "name": "CouponReceiptHeader",
+      "primaryKey": "receiptNo",
+      "properties": {
+        "receiptNo": "string",
+        "userName": "string",
+        "receiptDate": "date",
+        "pondokId": "string",
+        "items": {
+          "type": "list",
+          "objectType": "CouponReceiptItem"
+        }
+      }
+    },
+    {
+      "name": "CouponReceiptItem",
+      "primaryKey": "startingCouponNo",
+      "properties": {
+        "startingCouponNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "endingCouponNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "couponType": "string",
+        "taxAmount": "double",
+        "amount": "double",
+        "tax": "double"
+      }
+    },
+    {
+      "name": "OpReceiptHeader",
+      "primaryKey": "receiptNo",
+      "properties": {
+        "receiptNo": "string",
+        "userName": "string",
+        "receiptDate": "date",
+        "pondokId": "string",
+        "city": "string",
+        "reminderNo": {
+          "type": "string?"
+        },
+        "items": {
+          "type": "list",
+          "objectType": "OpReceiptItem"
+        }
+      }
+    },
+    {
+      "name": "OpReceiptItem",
+      "primaryKey": "opNo",
+      "properties": {
+        "opNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "opDate": {
+          "type": "date"
+        },
+        "amount": {
+          "type": "double"
+        },
+        "taxAmount": {
+          "type": "double"
+        },
+        "tax": {
+          "type": "double"
+        }
+      }
+    },
+    {
+      "name": "PaReceiptHeader",
+      "primaryKey": "receiptNo",
+      "properties": {
+        "receiptNo": "string",
+        "userName": "string",
+        "receiptDate": "date",
+        "pondokId": "string",
+        "city": "string",
+        "carNo": "string",
+        "paType": "string",
+        "reminderNo": {
+          "type": "string?"
+        },
+        "items": {
+          "type": "list",
+          "objectType": "PaReceiptItem"
+        }
+      }
+    },
+    {
+      "name": "PaReceiptItem",
+      "primaryKey": "paNo",
+      "properties": {
+        "paNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "paDate": {
+          "type": "date"
+        },
+        "offence": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "double",
+          "default": 0
+        },
+        "taxAmount": {
+          "type": "double",
+          "default": 0
+        },
+        "tax": {
+          "type": "double"
+        },
+        "disAmount": {
+          "type": "double",
+          "default": 0
+        },
+        "disPercent": {
+          "type": "double",
+          "default": 0
+        },
+        "opAmount": {
+          "type": "double",
+          "default": 0
+        }
+      }
+    },
+    {
+      "name": "MBillReceiptHeader",
+      "primaryKey": "receiptNo",
+      "properties": {
+        "receiptNo": "string",
+        "userName": "string",
+        "receiptDate": "date",
+        "pondokId": "string",
+        "city": "string",
+        "qrData": "string",
+        "items": {
+          "type": "list",
+          "objectType": "MBillReceiptItem"
+        }
+      }
+    },
+    {
+      "name": "MBillReceiptItem",
+      "primaryKey": "mBillNo",
+      "properties": {
+        "mBillNo": {
+          "type": "string",
+          "indexed": true
+        },
+        "amount": {
+          "type": "double",
+          "default": 0
+        },
+        "taxAmount": {
+          "type": "double",
+          "default": 0
+        },
+        "tax": {
+          "type": "double",
+          "default": 0
+        },
+        "disAmount": {
+          "type": "double",
+          "default": 0
+        },
+        "disPercent": {
+          "type": "double",
+          "default": 0
+        },
+        "city": "string",
+        "qrData": "string"
+      }
+    }
+  ],
+  "schemaVersion": 23
+}

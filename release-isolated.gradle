@@ -1,0 +1,20 @@
+gradle.beforeProject { p ->
+ p.buildDir = new File(gradle.startParameter.currentDir, "isolated-build/" + p.name)
+ p.afterEvaluate { q -> if(q.plugins.hasPlugin("com.android.library") || q.plugins.hasPlugin("com.android.application")) { q.android.ndkVersion="21.4.7075529"; q.android.compileSdkVersion=28 } }
+
+}
+gradle.projectsEvaluated {
+ def p=gradle.rootProject.project(':app')
+ p.ext.react.bundleInRelease=true
+ p.ext.react.devDisabledInRelease=true
+ p.ext.react.nodeExecutableAndArgs=['/usr/local/opt/node@16/bin/node']
+ p.ext.react.extraPackagerArgs=['--max-workers','2']
+}
+
+gradle.projectsEvaluated {
+ def bundle=gradle.rootProject.project(':app').tasks.getByName('bundleReleaseJsAndAssets')
+ def args=bundle.commandLine.toList()
+ args[1]='/Users/warrence/Code/CodeSquad/react-native/csparkpos/node_modules/react-native/cli.js'
+ args += ['--config',new File(gradle.startParameter.currentDir.parentFile,'metro.config.js').absolutePath]
+ bundle.setCommandLine(args)
+}
